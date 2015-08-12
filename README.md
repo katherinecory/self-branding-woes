@@ -1,2 +1,2 @@
-# selfbrandingwoes
-A blog about the process of creating a new brand and website
+# Self Branding Woes
+A blog about the process of creating a new brand and website for my own business.
