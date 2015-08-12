@@ -20,4 +20,3 @@ My aim is by blogging this project and documenting my thought process that maybe
 I'm not sure how many blog posts I'll do yet or even how this will work exactly, but I'm keen to try. One thing I am sure of is that I need to be careful that I don't spend too long on this blog and still don't have a website in three months time! I've set myself the deadline of having a new website online by 7th November, which is my 30th!
 
 Wish me luck...
-
