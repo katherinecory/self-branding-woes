@@ -15,13 +15,17 @@ h1 {
   @include font-size(52px);
   font-family: $heading-font-family;
   text-align: center;
-  margin-bottom: .55em;
+  margin-bottom: .7em;
 }
 
 h2,
 h3 {
   @include font-size(24px);
   font-family: $serif-font-family;
+}
+
+h2 {
+  color: lighten($grey--light, 15%);
 }
 
 h3 {
