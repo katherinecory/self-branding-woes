@@ -9,7 +9,7 @@ baseurl: ""
 url: "http://selfbrandingwoes.com"
 safe: true
 sass:
-  sass_dir: _sass
+  sass_dir: css/sass
   style: :compressed
 gems:
   - github-pages
