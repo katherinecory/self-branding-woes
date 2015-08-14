@@ -1,0 +1,15 @@
+---
+require:
+- jekyll-compass
+- compass-normalize
+- toolkit
+- breakpoint
+- singularitygs
+project_path: "/Applications/MAMP/htdocs/selfbrandingwoes"
+http_path: "/"
+css_dir: css
+sass_dir: css
+images_dir: images
+javascripts_dir: js
+output_style: compressed
+line_comments: false
