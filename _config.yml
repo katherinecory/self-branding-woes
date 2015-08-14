@@ -8,3 +8,7 @@ author:
 baseurl: ""
 url: "http://selfbrandingwoes.com"
 safe: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [github-pages, jekyll-compass, singularitygs, toolkit, breakpoint]
