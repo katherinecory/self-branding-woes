@@ -1,3 +1,26 @@
 /**
  * $LINKS
  */
+
+a {
+  color: $grey--light;
+  @include transition($transition);
+  text-decoration: none;
+  border-bottom: 1px solid darken($grey, 15%);
+
+  &:hover,
+  &:focus {
+    color: $grey;
+    border-color: darken($grey--dark, 2%);
+  }
+}
+
+a.active {
+  color: $grey;
+  border-bottom: 0;
+
+  &:hover,
+  &:focus {
+    color: $grey;
+  }
+}
