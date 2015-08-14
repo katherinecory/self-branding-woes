@@ -14,13 +14,3 @@ a {
     border-color: darken($grey--dark, 2%);
   }
 }
-
-a.active {
-  color: $grey;
-  border-bottom: 0;
-
-  &:hover,
-  &:focus {
-    color: $grey;
-  }
-}
