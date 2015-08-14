@@ -6,20 +6,19 @@ body {
   background: $black;
 }
 
-.l-page {
-  max-width: 94%;
-  margin: 0 auto;
-  padding: 20px 0;
-}
-
 header {
   overflow: hidden;
+  position: relative;
+  z-index: 10;
+  padding: 10px 0;
 }
 
 .logo {
   width: 30px;
   @include transition($transition);
   float: left;
+  font-size: 0;
+  line-height: 0;
 
   &:hover,
   &:focus {
@@ -47,6 +46,18 @@ header {
     &:last-child {
       padding-right: 0;
     }
+
+    &.active {
+      a {
+        color: $grey--light;
+        border-bottom: 0;
+
+        &:hover,
+        &:focus {
+          color: $grey--light;
+        }
+      }
+    }
   }
 
   a {
@@ -65,7 +76,21 @@ header {
   }
 }
 
+.l-header--image {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  background: url(../logo.png) center center no-repeat fixed;
+  background-size: cover;
+}
+
 .l-wrapper {
+  max-width: 94%;
+  margin: 0 auto;
+}
+
+.l-wrapper--content {
   max-width: 720px;
   margin: 0 auto;
   padding: 0 50px;
@@ -73,13 +98,17 @@ header {
 
 .l-main {
   clear: both;
+  z-index: 20;
+  position: relative;
+  padding-top: 40px;
 }
 
 footer {
   margin-top: 60px;
-  padding-top: 20px;
+  padding: 20px 0 40px 0;
   border-top: 1px solid $grey--dark;
   text-align: right;
+  color: lighten($grey--light, 15%);
 
   p,
   p:first-of-type {
