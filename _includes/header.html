@@ -1,11 +1,17 @@
-<header>
+<div class="l-wrapper">
+    <header>
       <div class="l-branding">
-        <h1 class="logo"><img src="logo.png" alt="Self Branding Woes" width="278" /></h1>
+        <div class="logo">
+          <a href="/index.html" title="Go back to the homepage">
+            <img src="logo--small.png" alt="Self Branding Woes" alt="" />
+          </a>
+        </div>
       </div>
 
       <nav class="l-navigation">
         <ul>
-          <li{% if page.nav == 'home' %} class="active"{% endif %}><a href="/" title="Introduction">Introduction</a></li>
+          <li{% if page.nav == 'intro' %} class="active"{% endif %}><a href="/" title="Introduction">Intro</a></li>
         </ul>
       </nav>
     </header>
+  </div>
