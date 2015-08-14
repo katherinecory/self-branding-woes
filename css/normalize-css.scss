@@ -1,0 +1,11 @@
+// Import the legacy variables (relevant for controlling compass-normalize).
+@import "sass/variables/colors";
+@import "sass/variables/layout";
+@import "sass/variables/legacy";
+@import "sass/variables/typography";
+
+// Generate normalize.css.
+@import "normalize";
+
+// Use 'border-box' for the box model.
+@import "toolkit/kickstart";
