@@ -1,23 +1,3 @@
 /**
  * $LINKS
  */
-
-a {
-  color: #000;
-  text-decoration: none;
-  @include transition($transition);
-
-  &:hover,
-  &:focus {
-    color: $secondary-colour;
-  }
-}
-
-a.active {
-  color: $primary-colour;
-
-  &:hover,
-  &:focus {
-    color: $primary-colour;
-  }
-}
