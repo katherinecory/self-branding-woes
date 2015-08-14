@@ -1,0 +1,40 @@
+/**
+ * DEFAULT-LAYOUT
+ */
+
+body {
+  background: $off-white-colour;
+  margin: 0;
+  padding: 50px;
+  overflow-x: hidden;
+}
+
+header {
+  overflow: hidden;
+}
+
+.l-branding {
+  @include transition($transition);
+  float: left;
+
+  &:hover {
+    @include opacity($opacity);
+  }
+}
+
+.l-region--header {
+  float: right;
+}
+
+.l-navigation {
+  width: 20%;
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.l-content {
+  width: 72%;
+  float: right;
+  padding: 10px 0 50px 0;
+}
