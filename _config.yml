@@ -11,4 +11,10 @@ safe: true
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [github-pages, jekyll-compass, singularitygs, toolkit, breakpoint]
+gems:
+  - github-pages
+  - jekyll-compass
+  - compass-normalize
+  - singularitygs
+  - toolkit
+  - breakpoint
