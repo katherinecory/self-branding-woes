@@ -12,16 +12,24 @@ h3 {
 }
 
 h1 {
-  @include font-size(52px);
+  @include font-size(36px);
   font-family: $heading-font-family;
   text-align: center;
-  margin-bottom: .7em;
+  margin-bottom: .2em;
+
+  @include breakpoint($tab, true) {
+    @include font-size(52px);
+  }
 }
 
 h2,
 h3 {
   @include font-size(24px);
   font-family: $serif-font-family;
+
+  @include breakpoint($tab, true) {
+    @include font-size(24px);
+  }
 }
 
 h2 {
@@ -29,9 +37,19 @@ h2 {
 }
 
 h3 {
-  @include font-size(20px);
+  @include font-size(16px);
   line-height: $base-line-height;
   margin-bottom: .95em;
+
+  @include breakpoint($tab, true) {
+    @include font-size(20px);
+  }
+}
+
+.alpha {
+  text-align: center;
+  color: $white;
+  margin-bottom: 2em;
 }
 
 p {
