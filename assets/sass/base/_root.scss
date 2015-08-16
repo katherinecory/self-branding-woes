@@ -7,8 +7,12 @@
 html {
   color: $white;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 14px;
   line-height: $base-line-height;
+
+  @include breakpoint($tab, true) {
+    font-size: $base-font-size;
+  }
 }
 
 html,
