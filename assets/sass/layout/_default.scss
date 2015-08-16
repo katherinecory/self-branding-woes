@@ -80,9 +80,11 @@ header {
   height: 70vh;
   width: 100%;
   position: relative;
-  z-index: 1;
-  background: url(../logo.png) center center no-repeat fixed;
-  background-size: cover;
+  text-align: center;
+
+  img {
+    @include vertical-align;
+  }
 }
 
 .l-wrapper {
