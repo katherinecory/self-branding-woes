@@ -112,7 +112,7 @@ header {
 }
 
 footer {
-  margin-top: 60px;
+  margin-top: 40px;
   padding: 20px 0 40px 0;
   border-top: 1px solid $grey--dark;
   color: lighten($grey--light, 15%);
@@ -121,6 +121,7 @@ footer {
 
   @include breakpoint($tab, true) {
     @include font-size(14px);
+    margin-top: 60px;
   }
 
   .contact {
