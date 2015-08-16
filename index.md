@@ -10,7 +10,9 @@ Anyone who knows me, knows I constantly talk about making myself a website. For 
 
 I've had plenty of one page websites, but nothing substantial or anything that does my work justice. I know I've lost work for a poor portfolio and a few weeks after each redesign, I end up feeling embarrassed about my site again.
 
-During the last eighteen months, I feel like I've been building up a solid portfolio of design work after freelancing for agencies for a number of years and it feels like this is the perfect time to rebrand and reposition myself. I've spent two weeks so far and I haven't made much progress; I can happily say I am the worst client I've ever had and I've completely forgotten all of my design processes. The pressure of trying to make this the best thing I've ever created sends me into blind panic.
+It'll probably help if I introduce who I am before going any further; I'm Katherine Cory, a designer and front-end developer from Derby. I've been freelance since 2010 and was fortunate enough to be voted one of the top 100 freelancers by the [Drum magazine](http://thedrum.com). I used to split my time between freelancing for agencies and client work but I'm slowly focusing my attention on solely working with clients. Not only have I never had a website, I've shamefully never had a blog either, most of my work is from word of mouth or referrals.
+
+During the last eighteen months, I feel like I've been building up a solid portfolio of design work and it feels like this is the perfect time to rebrand and reposition myself. I've spent two weeks so far and I haven't made much progress; I can happily say I am the worst client I've ever had and I've completely forgotten all of my design processes. The pressure of trying to make this the best thing I've ever created sends me into blind panic.
 
 ##An idea!
 
