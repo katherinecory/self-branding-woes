@@ -1,11 +1,13 @@
-# Location of the theme's resources.
-css_dir = "css"
-sass_dir = "sass"
-images_dir = "images"
-javascripts_dir = "js"
+css_dir = "assets/css"
+sass_dir = "assets/sass"
+images_dir = "assets/images"
+javascripts_dir = "assets/js"
 
-# Require any additional compass plugins installed on your system.
+output_style = :compressed
+line_comments = false
+
 require 'compass-normalize'
 require 'toolkit'
 require 'breakpoint'
 require 'singularitygs'
+require 'sass-globbing'
