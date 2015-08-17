@@ -90,12 +90,12 @@ header {
 
   @include breakpoint(680px, true) {
     height: 60vh;
-    background-size: 100% auto !important;
   }
 
   @include breakpoint($tab) {
     height: 70vh;
     background-position: center center !important;
+    background-size: 100% auto !important;
   }
 
   @include breakpoint($desk, true) {
