@@ -77,11 +77,27 @@ header {
 }
 
 .l-header--image {
-  height: 70vh;
+  height: 30vh;
   width: 100%;
   position: relative;
   text-align: center;
   z-index: 1;
+  background-size: 140% auto !important;
+
+  @include breakpoint(450px) {
+    height: 55vh;
+  }
+
+  @include breakpoint(530px) {
+    height: 70vh;
+    background-size: 100% auto;
+    background-position: center center;
+  }
+
+  @include breakpoint($tab, true) {
+    height: 80vh;
+    background-size: auto !important;
+  }
 }
 
 .l-wrapper {
