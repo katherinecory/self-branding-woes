@@ -85,14 +85,18 @@ header {
   background-size: 140% auto !important;
 
   @include breakpoint(400px) {
-    height: 55vh;
+    height: 40vh;
   }
 
-  @include breakpoint(680px, true) {
-    height: 60vh;
+  @include breakpoint(640px, true) {
+    height: 50vh;
   }
 
   @include breakpoint($tab) {
+    height: 60vh;
+  }
+
+  @include breakpoint(860px, true) {
     height: 70vh;
     background-position: center center !important;
     background-size: 100% auto !important;
