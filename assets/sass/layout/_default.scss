@@ -101,8 +101,12 @@ header {
     height: 475px;
   }
 
-  @include breakpoint($desk, true) {
+  @include breakpoint($desk) {
     height: 500px;
+  }
+
+  @include breakpoint(1400px, true) {
+    height: 600px;
   }
 }
 
@@ -146,11 +150,15 @@ header {
   }
 
   @include breakpoint(880px) {
+    margin-top: 450px;
+  }
+
+  @include breakpoint($desk) {
     margin-top: 475px;
   }
 
-  @include breakpoint($desk, true) {
-    margin-top: 500px;
+  @include breakpoint(1400px, true) {
+    margin-top: 600px;
   }
 }
 
