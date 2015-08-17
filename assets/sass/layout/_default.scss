@@ -77,33 +77,31 @@ header {
 }
 
 .l-header--image {
-  height: 30vh;
+  height: 250px;
   width: 100%;
   position: relative;
   text-align: center;
   z-index: 1;
-  background-size: 140% auto !important;
+  background-size: 160% auto !important;
+  background-position: center top !important;
 
-  @include breakpoint(400px) {
-    height: 40vh;
+  @include breakpoint(420px) {
+    background-size: 120% auto !important;
   }
 
-  @include breakpoint(640px, true) {
-    height: 50vh;
+  @include breakpoint(500px) {
+    height: 300px;
+    background-size: 120% auto !important;
   }
 
-  @include breakpoint($tab) {
-    height: 60vh;
+  @include breakpoint(640px) {
+    height: 425px;
   }
 
-  @include breakpoint(860px, true) {
-    height: 70vh;
+  @include breakpoint($tab, true) {
+    height: 500px;
     background-position: center center !important;
     background-size: 100% auto !important;
-  }
-
-  @include breakpoint($desk, true) {
-    height: 80vh;
   }
 }
 
