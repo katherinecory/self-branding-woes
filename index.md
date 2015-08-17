@@ -19,7 +19,7 @@ During the last eighteen months, I feel like I've been building up a solid portf
 
 I was chatting to a [friend](http://coreymwamba.co.uk/) about my work so far (normally, we catch up every Christmas, my website or lack of website soon becomes a topic of conversation) and trying to explain how I was trying to find the story within my work. I'm very keen to talk about the process from start to finish because although I'm proud of the end product, there's so many decisions and ideas that help form the final piece of work that go untold. He suggested maybe the story wasn't with each piece of work but instead this entire branding process.
 
-I absolutely loved this idea and remembered [Brad's Frost Designing in the Open](http://bradfrost.com/blog/post/designing-in-the-open/) project for the [Greater Pittsburgh Community Food Bank](http://foodbank.bradfrostweb.com/timeline/) and as a joke I'd already been hashtagging tweets with [#selfbrandingwoes](https://twitter.com/search?f=tweets&vertical=default&q=%23selfbrandingwoes&src=typd) so here I am writing this blog.
+I absolutely loved this idea and remembered [Brad's Frost Designing in the Open](http://bradfrost.com/blog/post/designing-in-the-open/) project for the [Greater Pittsburgh Community Food Bank](http://foodbank.bradfrostweb.com/timeline/) and as a joke I'd already been hashtagging tweets with [#selfbrandingwoes](http://kcory.co/1Jc0pCL) so here I am writing this blog.
 
 ##How will this work?
 
