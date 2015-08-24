@@ -78,35 +78,32 @@ header {
 }
 
 .l-header--image {
-  height: 250px;
   width: 100%;
   z-index: 1;
-  top: 0;
   left: 0;
+  top: 20px;
   position: fixed;
+  height: 214px;
+  text-align: center;
+
+  @include breakpoint(460px) {
+    height: 381px;
+    top: 31px
+  }
+
+  @include breakpoint(780px) {
+    height: 548px;
+  }
 
   img {
-    @include vertical-align;
-  }
+    @include centerer;
+    max-width: none;
+    width: auto;
 
-  @include breakpoint(500px) {
-    height: 300px;
-  }
-
-  @include breakpoint(640px) {
-    height: 425px;
-  }
-
-  @include breakpoint(880px) {
-    height: 475px;
-  }
-
-  @include breakpoint($desk) {
-    height: 500px;
-  }
-
-  @include breakpoint(1400px, true) {
-    height: 600px;
+    @include breakpoint(1150px) {
+      max-width: 100%;
+      width: 100%;
+    }
   }
 }
 
@@ -133,32 +130,18 @@ header {
   clear: both;
   z-index: 20;
   position: relative;
-  padding: 40px 0;
+  padding: 10px 0 40px 0;
   @include background-opacity($black, .8);
-  margin-top: 175px;
+  margin-top: (214px - 51px);
 
-  @include breakpoint(500px) {
-    margin-top: 275px;
+  @include breakpoint(460px) {
+    margin-top: (381px - 51px);
+    padding-top: 20px;
   }
 
-  @include breakpoint(640px) {
-    margin-top: 400px;
-  }
-
-  @include breakpoint($tab, true) {
-    padding-bottom: 60px;
-  }
-
-  @include breakpoint(880px) {
-    margin-top: 450px;
-  }
-
-  @include breakpoint($desk) {
-    margin-top: 475px;
-  }
-
-  @include breakpoint(1400px, true) {
-    margin-top: 600px;
+  @include breakpoint(780px) {
+    margin-top: (548px - 51px);
+    padding-top: 30px;
   }
 }
 
