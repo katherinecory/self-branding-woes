@@ -5,7 +5,11 @@
     <div class="l-page">
       {% include header.html %}
       <div class="l-header--image">
-        <img src="{{ site.baseurl }}/assets/images/{{ page.image }}" alt="{{page.title}}" />
+        <picture>
+          <source srcset="{{ site.baseurl }}/assets/images/{{ page.image }}.svg" media="(min-width: 780px)">
+          <source srcset="{{ site.baseurl }}/assets/images/{{ page.image }}-tablet.svg" media="(min-width: 460px)">
+          <img srcset="{{ site.baseurl }}/assets/images/{{ page.image }}-mobile.svg" alt="{{ page.title }}">
+        </picture>
       </div>
       <div class="l-main">
         <div class="l-wrapper--content">
@@ -16,9 +20,11 @@
       </div>
       {% include footer.html %}
     </div>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/svgeezy.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/twitter-post-fetcher.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/snippets.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/svgeezy.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/twitter-post-fetcher.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/picturefill.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/snippets.js"></script>
   </body>
 </html>
