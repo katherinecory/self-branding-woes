@@ -59,8 +59,9 @@ p {
     @include font-size(20px);
     line-height: 1.6em;
   }
+}
 
-  &:last-of-type {
-    margin-bottom: 0;
-  }
+img + em {
+  @include font-size(14px);
+  @include opacity(.8);
 }
