@@ -1,0 +1,102 @@
+/**
+ * $LIGHT
+ */
+
+.page--light {
+  color: $grey--dark;
+
+  body {
+    background: $white;
+  }
+
+  header {
+    background: $white;
+  }
+
+  a {
+    color: $grey;
+    border-bottom: 1px solid lighten($grey--light, 30%);
+
+    &:hover,
+    &:focus {
+      color: $grey--dark;
+    }
+  }
+
+  li {
+    &.active {
+      a {
+        color: $grey--light;
+
+        &:hover,
+        &:focus {
+          color: $grey--light;
+        }
+      }
+    }
+  }
+
+  .l-navigation {
+    a {
+      color: $grey--dark;
+      border: 0;
+
+      &:hover,
+      &:focus {
+        color: $grey;
+      }
+    }
+  }
+
+  .logo {
+    a {
+      border: 0;
+    }
+  }
+
+  .l-main {
+    @include background-opacity($white, .9);
+  }
+
+  h1 {
+    color: $grey--dark;
+  }
+
+  h2 {
+    color: $grey;
+  }
+
+  footer {
+    background: $white;
+
+    .l-wrapper {
+      border-color: lighten($grey--light, 20%);
+    }
+  }
+
+  .twitter {
+    &:before {
+      color: $grey;
+    }
+
+    li {
+      color: $grey--dark;
+      border-color: lighten($grey--light, 20%);
+
+      @include breakpoint(530px, true) {
+        border-color: lighten($grey--light, 20%);
+      }
+
+      @include breakpoint($desk, true) {
+        &:nth-child(2) {
+          border-color: lighten($grey--light, 20%);
+        }
+      }
+    }
+  }
+
+  .information {
+    border-color: lighten($grey--light, 20%);
+    color: $grey;
+  }
+}
