@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html class="{{ page.page-class }}">
   {% include head.html %}
-  <body class="{{ page.page-class }}">
+  <body>
     <div class="l-page">
       {% include header.html %}
       <div class="l-header--image">
+        {% if page.page-image == "jpg" %}
+        <picture>
+          <source srcset="{{ site.baseurl }}/assets/images/{{ page.image }}.jpg" media="(min-width: 780px)">
+          <source srcset="{{ site.baseurl }}/assets/images/{{ page.image }}-tablet.jpg" media="(min-width: 460px)">
+          <img srcset="{{ site.baseurl }}/assets/images/{{ page.image }}-mobile.jpg" alt="{{ page.title }}">
+        </picture>
+        {% else %}
         <picture>
           <source srcset="{{ site.baseurl }}/assets/images/{{ page.image }}.svg" media="(min-width: 780px)">
           <source srcset="{{ site.baseurl }}/assets/images/{{ page.image }}-tablet.svg" media="(min-width: 460px)">
           <img srcset="{{ site.baseurl }}/assets/images/{{ page.image }}-mobile.svg" alt="{{ page.title }}">
         </picture>
+        {% endif %}
       </div>
       <div class="l-main">
         <div class="l-wrapper--content">
