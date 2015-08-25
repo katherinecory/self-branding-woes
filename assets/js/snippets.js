@@ -1,5 +1,6 @@
 $(document).ready(function(){
   svgeezy.init(false, 'png');
+  $(".l-main").fitVids();
 });
 
 document.createElement( "picture" );
