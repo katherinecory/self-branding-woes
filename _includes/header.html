@@ -3,7 +3,11 @@
       <div class="l-branding">
         <div class="logo">
           <a href="/" title="Go back to the homepage">
-            <img src="logo.svg" alt="Self Branding Woes" alt="" />
+            {% if page.page-class == "page--light" %}
+            <img src="{{ site.baseurl }}/logo--light.svg" alt="Self Branding Woes" alt="" />
+            {% else %}
+            <img src="{{ site.baseurl }}/logo.svg" alt="Self Branding Woes" alt="" />
+            {% endif %}
           </a>
         </div>
       </div>
