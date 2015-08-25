@@ -24,7 +24,7 @@ My [second website](http://kcory.co/1NF8VjT) was built when I was made redundant
 
 However, I think this website had a certain charm that I've failed to reach since and it still feels special, five - six years on. I didn't think too much about anything other than playing with typography and letting the work drive the brand. There's a sense of fun and freedom I found by not overthinking and concerning myself with selling my services or showing off my work and I think this website shows I didn't feel any pressure about getting it *"right,"* I simply wanted to have fun.
 
-<iframe src="https://player.vimeo.com/video/137236828?color=000000&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/137236828?color=000000&title=0&byline=0&portrait=0" width="720" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p class="caption">Autumn 2009 to 2011</p>
 
 ##Usability
 
@@ -55,4 +55,4 @@ Shamefully, the Reasons monstrosity was online far longer than it should have be
 
 In terms of my brand, I removed the patterns and logo and tried to let the work speak for itself. It's probably the best design that shows the work off but it's a million miles away from where I hope the next iteration will take me.
 
-<iframe src="https://player.vimeo.com/video/137237200?&color=000000&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/137237200?&color=000000&title=0&byline=0&portrait=0" width="720" height="404" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p class="caption">December 2014 to present</p>
