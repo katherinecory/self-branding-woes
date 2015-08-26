@@ -7,6 +7,7 @@ page-class: page--light
 image: previously
 page-image: jpg
 permalink: /previously/
+estimated: 5 minutes
 ---
 
 Before going forward, I think it's wise to look back and analyse what successes and failures I've had with my past brands and websites so I can avoid but also improve upon these.
@@ -24,7 +25,7 @@ My [second website](http://kcory.co/1NF8VjT) was built when I was made redundant
 
 However, I think this website had a certain charm that I've failed to reach since and it still feels special, five - six years on. I didn't think too much about anything other than playing with typography and letting the work drive the brand. There's a sense of fun and freedom I found by not overthinking and concerning myself with selling my services or showing off my work and I think this website shows I didn't feel any pressure about getting it *"right,"* I simply wanted to have fun.
 
-<iframe src="https://player.vimeo.com/video/137236828?color=000000&title=0&byline=0&portrait=0" width="720" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p class="caption">Autumn 2009 to 2011</p>
+<iframe src="https://player.vimeo.com/video/137236828?color=000000&title=0&byline=0&portrait=0" width="720" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p class="caption">Autumn 2009 to Winter 2011</p>
 
 ##Usability
 
@@ -33,7 +34,7 @@ With my [third website](http://kcory.co/1Js2ydr), I wanted to address my dire us
 I can see where I was coming from though, again I was trying to be too clever and form a K mark logo from the brackets *(< />)* of HTML. I remember around this time, I was heavily into networking events and had amassed around 200+ business cards but found it difficult relating cards to the individuals I'd met. However, one card stood out because the businesswoman had included her photo on her card and I felt because I was my brand and people were buying me, it was a good idea to use photographs too.
 
 ![Third portfolio]({{ site.baseurl }}/assets/images/usability.jpg)
-*2011*
+*Winter 2011 to January 2012*
 
 ##Responsive
 
@@ -47,7 +48,7 @@ One of the issues with the dark website was it wasn't responsive and my [fourth 
 The less said about the [next version](http://kcory.co/1I9h4Wu) the better; I know I can have a heavy hand in terms of bold typography, colours etc and normally I reign myself in but there was no editing when it came to this website. I built this website on a bus down to Brighton and in a hotel room and put it live without testing it (again forgetting all the best practices I usually follow.) I was speaking at [Reasons to](http://reasons.to) and felt the pressure of having a newer website that showed off my personality. The large photo was received well by my peers but at this point, I didn't realise that wasn't important. Within a few weeks I was thoroughly embarrassed by my website and a client who I knew personally said he wouldn't hire me if he'd only seen the website. I lost another large job because of my lack of portfolio and it seems this website did more harm to my business than help!
 
 ![Responsive portfolio]({{ site.baseurl }}/assets/images/terrible.jpg)
-*September 2013 to December 2014*
+*September 2013 to November 2014*
 
 ##Today
 
@@ -55,4 +56,4 @@ Shamefully, the Reasons monstrosity was online far longer than it should have be
 
 In terms of my brand, I removed the patterns and logo and tried to let the work speak for itself. It's probably the best design that shows the work off but it's a million miles away from where I hope the next iteration will take me.
 
-<iframe src="https://player.vimeo.com/video/137237200?&color=000000&title=0&byline=0&portrait=0" width="720" height="404" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p class="caption">December 2014 to present</p>
+<iframe src="https://player.vimeo.com/video/137237200?&color=000000&title=0&byline=0&portrait=0" width="720" height="404" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p class="caption">November 2014 to present</p>
