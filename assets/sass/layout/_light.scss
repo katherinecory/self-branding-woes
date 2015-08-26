@@ -58,12 +58,17 @@
     @include background-opacity($white, .9);
   }
 
-  h1 {
+  h1,
+  .alpha {
     color: $grey--dark;
   }
 
   h2 {
     color: $grey;
+  }
+
+  .beta {
+    color: $grey--light;
   }
 
   footer {
