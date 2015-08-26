@@ -6,6 +6,7 @@ nav: intro
 page-class: page--dark
 image: intro
 page-image: svg
+estimated: 3 minutes
 ---
 
 Anyone who knows me, knows I constantly talk about making myself a website. For years, I've been like a cobbler with poor shoes and it's almost become a running joke (even my Dad's started to nag me and saying I haven't had one for ten years - it hasn't been that long, although it feels like it.)
