@@ -95,6 +95,10 @@ header {
     height: 548px;
   }
 
+  @include breakpoint(1680px) {
+    height: 800px;
+  }
+
   img {
     @include centerer;
     max-width: none;
@@ -142,6 +146,11 @@ header {
   @include breakpoint(780px) {
     margin-top: (548px - 51px);
     padding-top: 30px;
+  }
+
+  @include breakpoint(1680px) {
+    margin-top: (800 - 51px);
+    padding-top: 40px;
   }
 
   img {
