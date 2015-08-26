@@ -139,7 +139,7 @@ header {
   z-index: 20;
   position: relative;
   padding: 10px 0 30px 0;
-  @include background-opacity($black, .8);
+  @include background-opacity($black, .85);
   margin-top: (214px - 51px);
 
   @include breakpoint(460px) {
