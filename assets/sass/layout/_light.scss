@@ -36,18 +36,6 @@
     }
   }
 
-  .l-navigation {
-    a {
-      color: $grey--dark;
-      border: 0;
-
-      &:hover,
-      &:focus {
-        color: $grey;
-      }
-    }
-  }
-
   .logo {
     a {
       border: 0;
@@ -69,6 +57,22 @@
 
   .beta {
     color: $grey--light;
+  }
+
+  .post-navigation {
+    border-color: lighten($grey--light, 20%);
+
+    span {
+      @include opacity(.3);
+    }
+
+    h3 {
+      color: $grey;
+    }
+
+    h4 {
+      color: $grey--light;
+    }
   }
 
   footer {
