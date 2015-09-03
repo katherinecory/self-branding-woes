@@ -1,12 +1,11 @@
 ---
-layout: default
-title: Previously
+layout: post
+title: "Previously"
 date: 2015-08-24 09:50:22
-nav: previously
+slug: previously
 page-class: page--light
 image: previously
 page-image: jpg
-permalink: /previously/
 estimated: 5 minutes
 ---
 

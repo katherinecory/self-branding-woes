@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Introduction
+layout: post
+title: "Introduction"
 date: 2015-08-12 09:50:22
-nav: intro
+slug: introduction
 page-class: page--dark
 image: intro
 page-image: svg
