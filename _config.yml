@@ -9,3 +9,4 @@ baseurl: ""
 url: "http://selfbrandingwoes.com"
 safe: true
 exclude: [assets/sass]
+permalink: pretty
