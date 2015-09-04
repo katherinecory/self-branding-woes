@@ -19,12 +19,14 @@ layout: default
       {% if post.page-image == "jpg" %}
         <picture>
           <source srcset="{{ site.baseurl }}/assets/images/{{ post.image }}.jpg" media="(min-width: 780px)">
-          <img srcset="{{ site.baseurl }}/assets/images/{{ post.image }}-tablet.jpg">
+          <source srcset="{{ site.baseurl }}/assets/images/{{ post.image }}-tablet.jpg" media="(min-width: 460px)">
+          <img srcset="{{ site.baseurl }}/assets/images/{{ post.image }}-mobile.jpg" alt="{{ page.title }}">
         </picture>
         {% else %}
         <picture>
           <source srcset="{{ site.baseurl }}/assets/images/{{ post.image }}.svg" media="(min-width: 780px)">
-          <img srcset="{{ site.baseurl }}/assets/images/{{ post.image }}-tablet.svg">
+          <source srcset="{{ site.baseurl }}/assets/images/{{ post.image }}-tablet.svg" media="(min-width: 460px)">
+          <img srcset="{{ site.baseurl }}/assets/images/{{ post.image }}-mobile.svg" alt="{{ page.title }}">
         </picture>
       {% endif %}
     </div>
