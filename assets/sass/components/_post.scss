@@ -1,0 +1,98 @@
+/**
+ * $POST
+ */
+
+.post {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  &.post--light {
+    background: $white;
+
+    .post-text {
+      @include background-opacity($white, .7);
+    }
+  }
+
+  &.post--dark {
+    background: $black;
+
+    .post-text {
+      @include background-opacity($black, .7);
+    }
+  }
+
+  .post-image {
+    width: 100%;
+    height: 125px;
+
+    @include breakpoint($tab) {
+      height: 150px;
+    }
+
+    @include breakpoint($desk, true) {
+      height: 200px;
+    }
+
+    img {
+      @include centerer;
+    }
+  }
+
+  &.post--introduction {
+    img {
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+
+  .post-text {
+    position: absolute;
+    z-index: 10;
+    padding: 20px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    @include breakpoint(500px, true) {
+      width: 50%;
+      padding: 20px 40px;
+    }
+
+    @include breakpoint(900px, true) {
+      width: 36%;
+    }
+  }
+
+  h2 {
+    font-family: $heading-font-family;
+    @include font-size(52px);
+    margin-bottom: 0;
+    text-align: right;
+
+    a {
+      border: 0;
+      color: $white;
+    }
+  }
+
+  &.post--light {
+    h2 {
+      a {
+        color: $grey--dark;
+      }
+    }
+  }
+
+  h3 {
+    color: $grey--light;
+    font-style: italic;
+    margin-bottom: 0;
+    text-align: left;
+    @include font-size(20px);
+    text-align: right;
+  }
+}
