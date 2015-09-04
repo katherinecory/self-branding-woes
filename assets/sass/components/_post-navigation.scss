@@ -1,0 +1,76 @@
+/**
+ * $POST-NAVIGATION
+ */
+
+.post-navigation {
+  border-top: 1px solid $grey--dark;
+  padding-top: 30px;
+  margin-top: 60px;
+  overflow: hidden;
+
+  @include breakpoint(650px, true) {
+    margin-left: -50px;
+    max-width: 116%;
+    width: 116%;
+  }
+
+  .previous-link {
+    float: left;
+  }
+
+  .next-link {
+    float: right;
+    clear: both;
+    margin-top: 40px;
+
+    @include breakpoint(525px, true) {
+      margin-top: 0;
+    }
+
+    @include breakpoint(650px, true) {
+      clear: none;
+    }
+  }
+
+  span,
+  .link {
+    display: inline-block;
+  }
+
+  span {
+    @include font-size(40px);
+    color: $grey--light;
+    margin-right: 20px;
+    font-family: $heading-font-family;
+    @include opacity(.3);
+    vertical-align: top;
+  }
+
+  .next-link {
+    span {
+      margin: 0 0 0 20px;
+      float: right;
+    }
+  }
+
+  h2 {
+    @include font-size(28px);
+    margin-bottom: .1em;
+  }
+
+  h3 {
+    font-family: $heading-font-family;
+    color: $grey--light;
+    @include font-size(24px);
+    margin-bottom: .5em;
+  }
+
+  h4 {
+    color: $grey;
+    font-style: italic;
+    @include font-size(18px);
+    font-family: $serif-font-family;
+    font-weight: normal;
+    margin: 0;
+  }
+}
