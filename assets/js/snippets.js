@@ -3,6 +3,11 @@ $(document).ready(function(){
   $(".l-main").fitVids();
 });
 
+$(".post").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
+
 document.createElement( "picture" );
 
 /**
