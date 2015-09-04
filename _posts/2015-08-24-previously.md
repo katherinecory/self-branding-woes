@@ -3,7 +3,7 @@ layout: post
 title: "Previously"
 date: 2015-08-24 09:50:22
 slug: previously
-page-class: page--light
+page-class: light
 image: previously
 page-image: jpg
 estimated: 5 minutes

@@ -3,7 +3,7 @@ layout: post
 title: "Introduction"
 date: 2015-08-12 09:50:22
 slug: introduction
-page-class: page--dark
+page-class: dark
 image: intro
 page-image: svg
 estimated: 3 minutes
