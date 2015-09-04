@@ -5,7 +5,7 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="Katherine Cory">
 
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}Home | {{ site.title }}{% endif %}</title>
 
     <link rel="shortcut icon" href="favicon.ico" />
     <link href="{{ site.baseurl }}/assets/css/normalize-css.css" rel="stylesheet /">
