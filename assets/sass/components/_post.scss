@@ -8,22 +8,6 @@
   cursor: pointer;
   border-bottom: 1px solid lighten($grey--light, 25%);
 
-  &.post--light {
-    background: $white;
-
-    .post-text {
-      @include background-opacity($white, .7);
-    }
-  }
-
-  &.post--dark {
-    background: $black;
-
-    .post-text {
-      @include background-opacity($black, .6);
-    }
-  }
-
   &:last-of-type {
     border-bottom: 0;
   }
@@ -31,6 +15,7 @@
   .post-image {
     width: 100%;
     height: 125px;
+    @include transition($transition);
 
     @include breakpoint($tab) {
       height: 150px;
@@ -45,11 +30,34 @@
     }
   }
 
+  &:hover,
+  &:focus {
+    .post-image {
+      @include opacity(.3);
+    }
+  }
+
   &.post--introduction {
     img {
       top: 0;
       left: 0;
       transform: none;
+    }
+  }
+
+  &.post--light {
+    background: $white;
+
+    .post-text {
+      @include background-opacity($white, .7);
+    }
+  }
+
+  &.post--dark {
+    background: $black;
+
+    .post-text {
+      @include background-opacity($black, .6);
     }
   }
 
