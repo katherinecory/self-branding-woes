@@ -115,6 +115,18 @@ header {
   }
 }
 
+.page--svg {
+  .l-header--image {
+    img {
+      width: 60%;
+
+      @include breakpoint(460px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
 .page--front {
   .l-header--image {
     top: 15px;
