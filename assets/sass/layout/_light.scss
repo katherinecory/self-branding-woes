@@ -46,6 +46,13 @@
     @include background-opacity($white, .9);
   }
 
+  .l-main,
+  .posts {
+    img {
+      border-bottom: 1px solid lighten($grey--light, 30%);
+    }
+  }
+
   h1,
   .alpha {
     color: $grey--dark;
