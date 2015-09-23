@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="{% if page.page-class %}page--{{ page.page-class }}{% else %}page--front{% endif %}">
+<html class="{% if page.page-class %}page--{{ page.page-class }}{% else %}page--front{% endif %} {% if page.page-image %}page--{{ page.page-image }}{% endif %}">
   {% include head.html %}
   <body>
     <div class="l-page">
