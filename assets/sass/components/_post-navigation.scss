@@ -58,15 +58,18 @@
     margin-bottom: .1em;
   }
 
+  h3,
+  h4 {
+    color: $grey;
+  }
+
   h3 {
     font-family: $heading-font-family;
-    color: $grey--light;
     @include font-size(24px);
     margin-bottom: .5em;
   }
 
   h4 {
-    color: $grey;
     font-style: italic;
     @include font-size(18px);
     font-family: $serif-font-family;
