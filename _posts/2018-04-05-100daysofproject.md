@@ -20,3 +20,7 @@ I’ve learnt how to adapt the way I work since my relapse and I network more on
 I think 100 days is adequate to build something; I know not every day I’ll have something shiny and exciting to show but as long as every day I do a little piece of work, by the end of 100 days I ought to have something online. Over the next few days, I expect to get this blog up and running (I’m going to attempt to get Docker up and running on my MacBook) and look over where I left this project back in 2015. I’m also going to come up with a schedule to work out a timeline and take it from there.
 
 **Wish me luck, I think I may need it!**
+
+<br><br>
+
+*Manchester photo from [Ian Livesey](https://www.flickr.com/photos/ianlivesey/11687559193/)*
